@@ -1,9 +1,8 @@
-public class Pawn extends Piece {
-    Pawn(PieceColor pieceColor) {
-        super(pieceColor);
-    }
+public class Pawn implements Piece {
+    Pawn() {
 
-    public Boolean isValidMove(Position start, Position target, Board board) {
+    }
+    public Boolean isValidMove() {
         return true;
     }
 }
